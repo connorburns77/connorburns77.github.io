@@ -9,7 +9,14 @@
     section { padding: 40px; max-width: 900px; margin: auto; }
     h2 { border-bottom: 1px solid #ddd; padding-bottom: 8px; }
     .project { margin-bottom: 30px; }
-    img { width: 40%; display: block; margin: 30px auto; border-radius: 4px; }
+
+    img {
+      width: 40%;
+      display: block;
+      margin: 30px auto;
+      border-radius: 4px;
+    }
+
     a { color: #0066cc; text-decoration: none; }
   </style>
 </head>
@@ -23,7 +30,7 @@
 
 <section>
   <h2>About</h2>
-  <p>I study biomedical engineering at Simon Fraser University. My work spans embedded systems, imaging, signal processing, and electromechanical prototyping. I focus on building hardware and software that solve clear clinical problems.</p>
+  <p>I study biomedical engineering at Simon Fraser University. My work spans embedded systems, signal processing, imaging, and electromechanical prototyping. I focus on building hardware and software that solve practical clinical problems.</p>
 </section>
 
 <section>
@@ -43,18 +50,18 @@
   <div class="project">
     <h3>My Capstone: Seizure Detection and Intervention System</h3>
     <p>A multimodal detection and intervention platform reducing nighttime SUDEP risk. I integrated embedded systems, control logic, and pneumatic actuation to reposition patients safely.</p>
-    
+
     <!-- System Diagram -->
     <img src="images/system.png" alt="SUDEProtect system diagram">
 
     <ul>
-      <li>Built wrist module with EMG, IMU, and pulse sensors</li>
-      <li>Designed 4-cell pneumatic topper with solenoid routing</li>
-      <li>Added heat-map sensing under pillow for position tracking</li>
-      <li>Developed detection logic in MATLAB and ported to Python</li>
+      <li>Wrist module with EMG, IMU, and pulse sensors</li>
+      <li>Four-cell pneumatic topper with solenoid routing</li>
+      <li>Heat-map sensing under pillow for position detection</li>
+      <li>MATLAB detection logic ported to Python</li>
     </ul>
 
-    <!-- Topper image -->
+    <!-- Topper -->
     <img src="images/topper.png" alt="Mattress topper testing">
 
     <!-- Inflation manifold -->
@@ -62,13 +69,19 @@
   </div>
 
   <div class="project">
-    <h3>Rotary Inverted Pendulum Control</h3>
-    <p>LQR and pole-placement controllers for the Quanser QUBE-Servo 3 using MATLAB and Simulink.</p>
+    <h3>Medical Image Segmentation</h3>
+    <p>Tumor segmentation using CLAHE preprocessing, adaptive thresholds, and connected-component logic.</p>
+
+    <!-- CLAHE Example -->
+    <img src="images/CLAHE.png" alt="CLAHE segmentation example">
   </div>
 
   <div class="project">
-    <h3>Medical Image Segmentation</h3>
-    <p>Tumor segmentation using CLAHE preprocessing, adaptive thresholds, and connected-component logic.</p>
+    <h3>Rotary Inverted Pendulum Control</h3>
+    <p>LQR and pole-placement controllers for the Quanser QUBE-Servo 3.</p>
+
+    <!-- Pendulum Image -->
+    <img src="images/pendulum.jpg" alt="Quanser QUBE-Servo 3">
   </div>
 
 </section>
@@ -76,7 +89,7 @@
 <section>
   <h2>Work Experience</h2>
   <h3>Engineer Intern – Traylor Brothers Inc.</h3>
-  <p>Quality control, instrumentation troubleshooting, grout-flow monitoring, TBM maintenance support, and daily reporting.</p>
+  <p>Quality control, instrumentation troubleshooting, grout-flow monitoring, TBM maintenance support, and structured daily reporting.</p>
 </section>
 
 <section>
